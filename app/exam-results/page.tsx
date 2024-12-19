@@ -6,9 +6,7 @@ import { ArrowLeft, GraduationCap, Download, Search, ChevronDown, ChevronUp } fr
 import { useState } from 'react'
 
 const examResults = [
-  { id: 1, name: 'হাফ ইয়ারলি পরীক্ষা ২০২৩', date: '১৫ জুন, ২০২৩', link: '#' },
-  { id: 2, name: 'বার্ষিক পরীক্ষা ২০২৩', date: '১০ ডিসেম্বর, ২০২৩', link: '#' },
-  { id: 3, name: 'প্রি-টেস্ট পরীক্ষা ২০২৪', date: '২০ ফেব্রুয়ারি, ২০২৪', link: '#' },
+  { id: 1, name: 'Empty', date: '', link: '#' },
 ]
 
 export default function ExamResultsPage() {
@@ -78,7 +76,7 @@ export default function ExamResultsPage() {
                         className="bg-teal-500 text-white px-6 py-3 rounded-lg flex items-center hover:bg-teal-600 transition-colors duration-300"
                       >
                         <Download className="mr-2" />
-                        ফলাফল ডাউনলোড করুন (PDF)
+                        
                       </motion.button>
                     </Link>
                   </div>
